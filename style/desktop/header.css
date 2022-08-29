@@ -1,0 +1,72 @@
+.header {}
+
+.header__wrapper {
+    position: absolute;
+    width: 77%;
+    height: 60px;
+    left: calc(50% - 77%/2);
+    top: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    /* width: 77%; */
+    /* height: 30%; */
+    /* margin: 0 auto; */
+    /* background-color: antiquewhite; */
+
+}
+
+.header__title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.header__logo{
+   font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 32px; 
+    color: #F1CDB3;
+    transition-duration: 1s;
+}
+.header__logo:hover{
+    color: #f19456;
+    cursor: pointer;
+}
+.header__logo-subtitle{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+
+.header__nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px; 
+}
+ 
+.header__nav-list {
+    display: flex; 
+}
+
+.header__nav-list-item{
+    margin: 0 10px;
+    list-style-type: none;
+    transition-duration: 1s;
+}
+.header__nav-list-item:hover{
+    color: #F1CDB3;
+    cursor: pointer;
+}
+.header__nav-list-item:last-child{
+    margin: 0 0;
+}
+
+.header__nav-list_active{
+    border-bottom:  2px solid #F1CDB3;
+}
