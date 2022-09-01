@@ -1,0 +1,92 @@
+.help {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 611px;
+    margin: 0 auto;
+    background: #FFFFFF;
+
+}
+
+.help__wrapper {
+    width: 1200px;
+    height: 431px;
+    margin: 0 auto;
+
+}
+
+.help__title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 308px;
+    height: 90px;
+    margin: 30px auto;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.help__list {
+    width: 1026px;
+    height: 281px;
+    margin: 0 auto;
+
+}
+
+.help__list-row {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+
+}
+
+.help__list-item {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    min-width: 100px;
+    height: 113px;
+
+}
+
+.help__list-item img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+
+.help__list-item div {
+
+    /*  display: flex;
+ 
+align-items: center;
+text-align: center;  */
+    /* width: 82px;
+height: 23px; */
+    margin: 20px auto;
+    /*  margin: 0px auto; */
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    white-space: nowrap;
+
+
+    letter-spacing: 0.06em;
+
+    color: #545454;
+}
+
+.help__list-row-last {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+     
+}
