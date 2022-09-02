@@ -49,6 +49,124 @@
     line-height: 160%;
     color: #4C4C4C;
 }
-.about__subtitle{
+
+.about__subtitle {
     margin-bottom: 20px;
+}
+
+.about__modal {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 877px;
+    opacity: 0.8;
+    background-color: gray;
+}
+
+.about__modal-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    height: 552px;
+    margin: 0 auto;
+    background-color: white;
+    }
+.about__modal-close-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+.about__modal-close {
+    box-sizing: border-box;
+    width: 52px;
+    height: 52px;
+    background-color: rgba(28, 28, 28, 0);
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+}
+
+.about__modal-content {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.about__modal-content img {
+    width: 500px;
+    height: 500px;
+    border-radius: 9px 0px 0px 9px;
+}
+
+.about__modal-item {
+    width: 351px;
+    height: 362px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.about__modal-name {
+    width: 145px;
+    height: 45px;
+    /* margin-top: 30px; */ 
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.about__modal-type {
+    width: 151px;
+    height: 23px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    white-space: nowrap;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.about__modal-description {
+    width: 350px;
+    height: 102px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.about__modal-list {
+    width: 180px;
+    height: 102px;
+  }
+
+.about__modal-list li {
+    box-sizing: border-box;
+    color: #F1CDB3;
+}
+
+.about__modal-list ul {
+    margin: 0;
+    padding: 10%;
+}
+
+.about__modal-list span {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
 }
